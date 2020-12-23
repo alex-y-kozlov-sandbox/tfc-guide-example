@@ -24,12 +24,7 @@ resource "aws_dynamodb_table" "tfc_example_table" {
   }
 
   attribute {
-    name = "UserName"
+    name = "UserName1"
     type = "S"
-  }
-  
-  attribute {
-    name = "UserLogin"
-    type = "S"
-  }  
+  } 
 }
